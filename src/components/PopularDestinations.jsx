@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./PopularDestinations.css"
 import { popularCities } from "../data/data";
 

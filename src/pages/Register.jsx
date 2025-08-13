@@ -1,5 +1,4 @@
-import React from 'react'
-import "./authentication.css"
+import "./Authentication.css"
 const Register = () => {
   return (
     <div className='authentication-container'>

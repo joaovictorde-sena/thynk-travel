@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import './SearchBar.css'
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const tabs = ['Destino', 'Voos', 'Cruzeiros']
 

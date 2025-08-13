@@ -1,4 +1,3 @@
-import React from "react";
 import "./Footer.css";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { FaCcVisa, FaCcMastercard, FaCcDinersClub } from "react-icons/fa";
