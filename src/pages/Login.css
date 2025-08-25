@@ -1,0 +1,108 @@
+
+.login-container {
+    max-width: 400px;
+    height: 100vh;
+    margin: 64px auto;
+    padding: 32px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.login-container h2 { 
+    margin-bottom: 20px;
+}
+
+
+.login-form input, button {
+    border: 1px solid #ccc;
+}
+
+.login-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 4px;
+    
+}
+
+.password-container {
+    position: relative;
+}
+
+.forgot-link {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-size: 12px;
+    color: #888;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.login-form button:hover {
+    background-color: #ff6333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 15px 0 0 15px;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+
+.btn-login.email,
+.btn-login.google,
+.btn-login.facebook span {
+  font-size: 14px;
+}
+
+.email-icon {
+    font-size: 18px;
+}
+
+.btn-login:hover {
+    color: #ff6333;
+}
+
+
+.terms {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.terms a {
+    color: #f97316;
+}

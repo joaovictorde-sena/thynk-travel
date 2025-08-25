@@ -1,0 +1,88 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.register-card {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.social-register {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 5px 10px;
+    
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ .email {
+    font-size: 24px;
+}
+
+.google, .facebook {
+    font-size: 20px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.divider span {
+    font-size: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.register-btn {
+    background: #f97316;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.register-btn:hover {
+    background: #ea580c;
+}
+
+.redirect {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.redirect a {
+    color: #f97316;
+}
